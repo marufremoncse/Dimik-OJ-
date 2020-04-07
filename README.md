@@ -1,1 +1,1 @@
-Solved problems of DIMIK OJ by me
+Accepted problems of DIMIK OJ solved by me
