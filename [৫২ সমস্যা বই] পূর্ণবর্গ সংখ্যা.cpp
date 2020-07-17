@@ -1,21 +1,22 @@
 #include<bits/stdc++.h>
 using namespace std;
 
-int main()
-{
-    int n;
-    cin>>n;
+int main(){
+    int T;
+    cin>>T;
 
-    double ara[n];
-    for(int i=0;i<n;i++){
+    int ara[T];
+
+    for(int i=0;i<T;i++){
         cin>>ara[i];
     }
-    for(int i=0;i<n;i++){
-        double a = floor(sqrt(ara[i]));
-        double b = ceil(sqrt(ara[i]));
-        if(a==b)
+
+    for(int i=0;i<T;i++){
+        if(floor(sqrt(ara[i]))==ceil(sqrt(ara[i]))){
             cout<<"YES"<<endl;
-        else
+        }
+        else{
             cout<<"NO"<<endl;
+        }
     }
 }
